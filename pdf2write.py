@@ -23,7 +23,7 @@ svg = '''<svg id="write-document" xmlns="http://www.w3.org/2000/svg" xmlns:xlink
 pdf_path = sys.argv[1]
 pdf = PyPDF2.PdfFileReader(pdf_path, "rb")
 img_width = 720
-n_pages = pdf.getNumPages()
+n_pages = pdf.getNumPages() + 1
 
 page = pdf.getPage(0)
 width = page.mediaBox.getWidth()
