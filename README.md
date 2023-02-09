@@ -1,4 +1,7 @@
-# stylus_labs_write_pdf_importer
-Import PDF in Stylus Lab's Write
+# Stylus Labs - Write : PDF Importer
+Import PDF in Stylus Lab's Write (Tested on Linux)
 
-Usage: `python pdf2write.py '/home/user/Documents/lecture.pdf'`
+## Usage:
+
+- Simple copy : `python pdf2write.py '/home/user/Documents/lecture.pdf'`
+- Copy extended to the right : `python pdf2write.py -e '/home/user/Documents/lecture.pdf'`
